@@ -1,0 +1,27 @@
+.btn{
+  text-transform:uppercase;
+  background-color: $mainYellow100;
+  padding:22px 28px;
+  text-align:center;
+  width:100%;
+  border-radius:2px;
+  font-size:22px;
+  transition:all .4s;
+  &:hover{
+    background: $black100;
+    color: $mainYellow100;
+  }
+  &:active{
+    background: $white100;
+    color: $black100;
+  }
+  &:selection{
+    border:0px;
+    outline:none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  @media screen and (max-width:640px){
+    font-size: 18px;
+  }
+}

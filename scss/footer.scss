@@ -1,0 +1,35 @@
+footer{
+
+  .copyright{
+    padding: 22px;
+  }
+  .callBanner{
+    background-color: $black100;
+    color: $white100;
+    padding: 22px;
+  }
+  p{
+    margin:0px;
+    font-weight:300;
+  }
+  span{
+    font-weight:300;
+    font-size:28px;
+    padding-left:10px;
+  }
+}
+
+.supportTag{
+  &:before{
+    content: "";
+    background-image:url(../images/headset-icon.png);
+    width:40px;
+    height:33px;
+    margin-right:12px;
+    margin-bottom:-5px;
+    background-size:cover;
+    display:inline-block;
+    position:relative;
+    background-position: center;
+  }
+}

@@ -1,0 +1,180 @@
+.uppercase {
+  text-transform: uppercase; }
+
+.greyTxt {
+  color: #5b6274; }
+
+.btn-shadow {
+  box-shadow: 0 2px 5px 0px #5b6274; }
+
+.yellow {
+  color: #e7b51e; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0; }
+
+.container {
+  max-width: 1175px;
+  padding: 15px; }
+
+h1, h2, h3, h4, p {
+  font-family: "Roboto", Helvetica, Arial, sans-serif; }
+
+h1 {
+  font-size: 2.4em; }
+  @media screen and (max-width: 640px) {
+    h1 {
+      font-size: 1.8em; } }
+
+h3 {
+  font-size: 22px; }
+
+p {
+  font-size: 16px; }
+
+.pullout {
+  font-size: 22px; }
+
+.btn {
+  text-transform: uppercase;
+  background-color: #e7b51e;
+  padding: 22px 28px;
+  text-align: center;
+  width: 100%;
+  border-radius: 2px;
+  font-size: 22px;
+  transition: all .4s; }
+  .btn:hover {
+    background: black;
+    color: #e7b51e; }
+  .btn:active {
+    background: white;
+    color: black; }
+  .btn:selection {
+    border: 0px;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none; }
+  @media screen and (max-width: 640px) {
+    .btn {
+      font-size: 18px; } }
+
+.banner {
+  z-index: 0;
+  position: relative;
+  margin-top: -70px;
+  background-color: #e7b51e;
+  background-image: url(../images/bannerpattern.jpg);
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  padding: 50px;
+  text-align: center;
+  -webkit-transform: rotate(-2deg);
+  transform: rotate(-2deg); }
+  .banner:before, .banner:after {
+    content: "";
+    width: 50px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    background: #e7b51e; }
+  .banner:before {
+    left: -50px; }
+  .banner:after {
+    right: -50px; }
+  .banner h1 {
+    margin: 0px;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: "Roboto"; }
+  @media screen and (max-width: 640px) {
+    .banner {
+      -webkit-transform: none;
+      transform: none; }
+      .banner h1 {
+        font-size: 40px; } }
+
+.main {
+  margin-top: -50px;
+  background-color: #e3e6ed;
+  padding-bottom: 110px;
+  padding-top: 120px; }
+  .main hr {
+    background-color: #bec6da; }
+
+.content {
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-bottom: 25px; }
+
+.video {
+  margin-bottom: 50px;
+  height: 400px;
+  background: white;
+  border: 1px solid #bec6da; }
+  .video p {
+    line-height: 400px;
+    color: #bec6da;
+    text-align: center; }
+
+.mainContent {
+  border-bottom: 1px solid #bec6da; }
+
+.cta {
+  padding-top: 70px; }
+  .cta .content {
+    padding-bottom: 25px; }
+
+.secondary {
+  padding-top: 50px; }
+
+.tagLine {
+  font-weight: 500; }
+
+.logoWrap {
+  position: relative;
+  z-index: 100000; }
+
+.logo {
+  z-index: 10000; }
+  @media screen and (max-width: 640px) {
+    .logo {
+      padding: 25px; } }
+  .logo.large {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block; }
+  .logo.small {
+    max-width: 160px; }
+
+footer .copyright {
+  padding: 22px; }
+footer .callBanner {
+  background-color: black;
+  color: white;
+  padding: 22px; }
+footer p {
+  margin: 0px;
+  font-weight: 300; }
+footer span {
+  font-weight: 300;
+  font-size: 28px;
+  padding-left: 10px; }
+
+.supportTag:before {
+  content: "";
+  background-image: url(../images/headset-icon.png);
+  width: 40px;
+  height: 33px;
+  margin-right: 12px;
+  margin-bottom: -5px;
+  background-size: cover;
+  display: inline-block;
+  position: relative;
+  background-position: center; }
+
+/*# sourceMappingURL=style.css.map */
